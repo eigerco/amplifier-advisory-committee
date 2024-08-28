@@ -1,1 +1,1 @@
-# security-advisory-committee
+# Axelar Security Advisory Committee
