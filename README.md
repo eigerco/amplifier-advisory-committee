@@ -1,10 +1,11 @@
 # Security Advisory Committee
-[overview]
 
-## Proposal submission process
+The introduction of the Axelar Security Advisory Committee marks a significant stride towards bolstering the security landscape of multi-chain development. 
 
-[Proposing a chain](src/docs/PROPOSING_A_CHAIN.md)
+This initiative is designed to establish a comprehensive framework for the evaluation of new proposed connections to the Axelar network, prioritizing security, decentralization, and reliability. 
 
-## About the Security Advisory Committee
+This effort reflects a growing recognition within the blockchain community of the need for rigorous security standards to safeguard interconnected blockchain networks.
 
-[About the Security Advisory Committee](src/docs/SECURITY_ADVISORY_MEMBERS.md)
+## [Proposal submission process](src/docs/Integrators/SUBMIT_PROPOSAL.md)
+
+## [About the Security Advisory Committee](src/docs/SECURITY_ADVISORY_COMMITTEE/SECURITY_ADVISORY_COMMITTEE.md)

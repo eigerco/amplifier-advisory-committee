@@ -1,85 +1,67 @@
-# Example Proposal
+# Chain Integration Proposal
 
-## Proposal for Chain Integration with Axelar Network
+## Overview
 
 ### Project Overview
 
-**Chain Name:** 
-
-[ ]
-
-**Project Description:**
-
-[ ]
-
-**Proposer:**
-
-[ ]
-
-**Contact Information:**
-
-Email: [ ]
-
-Telegram: @[ ]
+- **Chain Name:** [Insert Chain Name]
+- **Project Description:** [Provide a brief description of the project and its objectives]
+- **Proposer:** [Name or Team proposing the integration]
+- **Contact Information:**
+  - **Email:** [Insert Email Address]
+  - **Telegram:** @[Insert Telegram Handle]
 
 ### Chain Overview
 
-**At-A-Glance:**
+#### At-A-Glance
 
-- **The Case for [CHAIN]:** []
-- **Management Team Credentials:** []
-- **Notable Use Cases:** []
+- **Justification for [CHAIN]:** [Detail the rationale for integrating this chain with the Axelar network]
+- **Management Team Credentials:** [Provide the credentials and relevant experience of the management team]
+- **Notable Use Cases:** [Highlight key use cases or applications that utilize this chain]
 
-**Technology Overview:**
+#### Technology Overview
 
-- **Protocol Overview:** []
-- **Transaction Finality:** [ ]
-- **Smart Contract Platform:** [Fully EVM-compatible]
-- **Any Other Notable Features:** [ ]
+- **Protocol Overview:** [Provide an overview of the chain’s protocol and architecture]
+- **Transaction Finality:** [Describe how and when transactions are considered final on the chain]
+- **Smart Contract Platform:** Fully EVM-compatible
+- **Additional Notable Features:** [List any other significant features of the chain]
 
-**Security Considerations:**
+#### Security Considerations
 
-- [ ]
+- [Outline any security measures, audits, or considerations relevant to the integration]
 
-**Axelar Integration Components:**
+### Axelar Integration Components
 
-- **External Gateway Contracts:** [ ]
-- **Amplifier Contracts:** [ ]
+- **External Gateway Contracts:** [Describe the implementation of external gateway contracts]
+- **Amplifier Contracts:** [Detail the role and functionality of amplifier contracts in the integration]
 
+## Request for Security Council Review
 
-### Request for Security Council Review
+### Purpose
 
-**Purpose of Review:**
+The purpose of this review is to ensure that the integration of [Insert Chain Name] with the Axelar network adheres to all security and technical standards, ensuring a secure and efficient connection.
 
-To ensure that ExampleChain's integration with the Axelar network meets all security and technical standards, thereby guaranteeing a secure and efficient connection.
+### Proposed AXL Grant
 
-**Proposed AXL Grant:**
+We propose an AXL grant of 20,000 AXL tokens to compensate the Security Council for their time and efforts in conducting a thorough review of the integration.
 
-Based on the complexity of ExampleChain, we propose an AXL grant of 20,000 AXL tokens to compensate the Security Council for their time and efforts in conducting a thorough review.
+### Additional Information
 
-**Scope of Review:**
+- **GitHub Repository:** [Insert Link to the repository]
+- **Developer Documentation:** [Insert Link to the developer documentation]
+- **Whitepaper:** [Insert Link to the whitepaper]
+- **Independent Audit Reports:** [Insert Link to any audit reports]
 
-- **Technological Assessment:** Evaluation of the protocol design and implementation, overall security practices
-- **Code Quality and Transparency of the Axelar Integration Components:** QA of the intended design, implementation, and best practices followed for both the external and Amplifier contracts
-- **Understanding of Deployment and Maintenance Plans:** Ensure there is a comprehensive plan for addressing updates, bugs, and upgrades
-- **Consideration for Externalities:** Open-ended analysis of anything unique about the chain that the Committee thinks the community of voters should be aware of
+## Community Involvement
 
-**Additional Information:**
+### Discussion Forum
 
-- GitHub Repository: [Insert Link]
-- Whitepaper: [Insert Link]
-- Independent Audit Reports: [Insert Link]
+Community members are encouraged to participate in the discussion and provide feedback on this proposal through the Axelar community forum. [Insert Link to Forum]
 
-### Community Involvement
+### Voting
 
-**Discussion Forum:**
+Following the Security Council's review, a community vote will be held to determine the approval of [Insert Chain Name]'s integration with the Axelar network.
 
-We encourage community members to participate in the discussion and provide feedback on the proposal through the Axelar community forum. [Insert Link to Forum]
+### Feedback and Questions
 
-**Voting:**
-
-After the Security Council completes its review, a community vote will be held to decide on the integration of ExampleChain with the Axelar network.
-
-**Feedback and Questions:**
-
-For any questions or feedback regarding this proposal, please contact John Doe at john.doe@examplechain.org or @john_doe on Telegram.
+For any questions or feedback regarding this proposal, please contact [Insert Name] at [Insert Email Address] or via Telegram at @[Insert Telegram Handle].
