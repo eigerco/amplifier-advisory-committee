@@ -6,7 +6,7 @@
 
 - **Chain Name:** Flow
 - **Project Description:** Flow is a Layer 1 blockchain built specifically for creating and managing digital assets and decentralized applications (dApps). It features a unique multi-node architecture designed for scalability without compromising decentralization, enabling fast, secure, and efficient execution of smart contracts. Flow is purpose-built for high-throughput use cases such as gaming, NFTs, and consumer applications.
-- **Proposer:** Flow Development Team
+- **Proposer:** Flow Foundation
 - **Contact Information:**
   - **Email:** developers@flow.com
   - **Telegram:** @FlowCommunity
@@ -38,7 +38,7 @@
 - **Transaction Finality:** 
     Flow offers instant, deterministic finality, meaning that once a transaction is confirmed by the network, it is final and cannot be reversed. This ensures a secure environment for applications where quick and definitive transaction processing is critical.
 - **Smart Contract Platform:** 
-    Through Cadence, EVM on Flow is fully EVM-compatible. Cadence can be used to extend EVM apps built in solidity by unlocking gasless experiences, new business models and fine-tuned access control. With Flow offering full EVM support, existing applications and tools already deployed in the EVM ecosystem can simply onboard to the network with no code changes.
+    Through the Crescendo upgrade, EVM on Flow is fully EVM-Compatible. With Flow offering full EVM support, existing applications and tools already deployed in the EVM ecosystem can simply onboard to the network with no code changes.
 - **Additional Notable Features:**
   - **Cadence:** A resource-oriented programming language developed by Flow for writing secure and easy-to-understand smart contracts. Cadence is designed to prevent many of the vulnerabilities that exist in other smart contract languages.
   - **Upgradable Smart Contracts:** Flow allows developers to deploy smart contracts that can be updated or fixed after deployment, providing flexibility while maintaining security.
@@ -58,10 +58,6 @@
 ### Purpose
 
 The purpose of this review is to ensure that the integration of Flow with the Axelar network adheres to all security and technical standards, ensuring a secure and efficient connection.
-
-### Proposed AXL Grant
-
-We propose an AXL grant of 10,000 AXL tokens to compensate the Security Council for their time and efforts in conducting a thorough review of the integration. As the integration is for a standard EVM-compatible connection, the 10,000 AXL is proposed in light of this [rubric](../../docs//Integrators/EVALUATION.md#committee-review-compensation).
 
 ### Additional Information
 
