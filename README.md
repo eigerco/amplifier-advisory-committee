@@ -6,6 +6,6 @@ This initiative is designed to establish a comprehensive framework for the evalu
 
 This effort reflects a growing recognition within the blockchain community of the need for rigorous security standards to safeguard interconnected blockchain networks.
 
-## [Proposal submission process](src/docs/Integrators/SUBMIT_PROPOSAL.md)
+## [Proposal submission process](docs/Integrators/SUBMIT_PROPOSAL.md)
 
-## [About the Security Advisory Committee](src/docs/SECURITY_ADVISORY_COMMITTEE/SECURITY_ADVISORY_COMMITTEE.md)
+## [About the Security Advisory Committee](docs/SECURITY_ADVISORY_COMMITTEE/SECURITY_ADVISORY_COMMITTEE.md)
