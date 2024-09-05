@@ -7,7 +7,7 @@ The Security Advisory Committee is tasked with ensuring the security and integri
 - Common Prefix
 - Eiger
 - **Ackee**: Ackee is trusted by top-tier organizations in web3. Our mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.
-- **Node Capital**: Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster is the ideal partner to bootstrap your network's success.
+- **Node.Monster**: Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster is the ideal partner to bootstrap your network's success.
 We also offer white-label services for VASPs and crypto VCs, allowing them to leverage our expertise under their brand. Our experience ensures that your brand can deliver top-tier services with the reliability and performance our team is known for as we are the main staking services for several protocols and VCs.
 
 ## Compensation
