@@ -23,5 +23,5 @@ Funds are distributed to members upon completion of evaluations, ensuring fair c
         - `axelar1abc` <- Common Prefix
         - `axelar1bcd` <- Eiger
         - `axelar1def` <- Ackee
-        - `axelar1rmvv5p64l6p9lsne6syvt8yn0z8x0d9gqzvg6f` <- Node Capital
+        - `axelar1rmvv5p64l6p9lsne6syvt8yn0z8x0d9gqzvg6f` <- Node.Monster
         - `axelar1fgh` <- Interop Labs
