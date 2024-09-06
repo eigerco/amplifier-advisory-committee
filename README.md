@@ -1,6 +1,6 @@
-# Security Advisory Committee
+# Amplifier Advisory Committee
 
-The introduction of the Axelar Security Advisory Committee marks a significant stride towards bolstering the security landscape of multi-chain development. 
+The introduction of the Amplifier Advisory Committee marks a significant stride towards bolstering the security landscape of multi-chain development. 
 
 This initiative is designed to establish a comprehensive framework for the evaluation of new proposed connections to the Axelar network, prioritizing security, decentralization, and reliability. 
 
