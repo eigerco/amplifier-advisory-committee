@@ -1,1 +1,1 @@
-# security-advisory-committee
+# amplifier-advisory-committee
