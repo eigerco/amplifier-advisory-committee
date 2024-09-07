@@ -29,7 +29,7 @@
 - [ ] Governance and Compliance
 - [ ] Smart Contracts Security
 - [ ] Vulnerability Scanning
-- [ ] 3rd Party Audits and history of exploits
+- [ ] 3rd-party audits and history of exploits
 - [ ] Risk of use for developers/users
 ### Code Quality and Transparency of the Axelar Integration Components
 [ ]
