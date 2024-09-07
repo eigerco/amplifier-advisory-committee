@@ -1,4 +1,4 @@
-# Security Advisory Committee Assessment on Example Proposal
+# Amplifier Advisory Committee Assessment on Example Proposal
 
 ## Project Overview
 
