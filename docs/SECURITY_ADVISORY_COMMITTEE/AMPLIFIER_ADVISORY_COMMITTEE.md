@@ -4,8 +4,42 @@ The Amplifier Advisory Committee is tasked with ensuring the security and integr
 
 ## Initial Participating Members
 
-- **Common Prefix**: Common Prefix is a team of scientists and engineers specializing in blockchain protocols. They focus on developing secure cryptographic protocols through theoretical research and practical implementation. Their expertise spans consensus mechanisms, smart contract auditing, cryptographic protocol analysis, and blockchain infrastructure. They collaborate with clients ranging from Layer-1 blockchains to decentralized applications, offering services in protocol design, auditing, testing, and operational security. Their global team combines academic research with hands-on engineering to ensure secure and efficient blockchain systems.
-- **Eiger**: Eiger specializes in designing, building, and deploying high-performance web3 systems that integrate seamlessly with blockchain environments. Their services include blockchain and smart contract implementations, large infrastructure deployments, architecture renovations, and ecosystem tooling. They focus on scalability, security, and reliability, working with clients to create optimized decentralized applications and blockchain solutions. Eiger supports Layer 1 and Layer 2 integrations, ensuring systems are cost-efficient and maintainable.
-- **Ackee**: Ackee is trusted by top-tier organizations in web3. Our mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.
-- **Node.Monster**: Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster is the ideal partner to bootstrap your network's success.
+**Common Prefix** | https://www.commonprefix.com/
+
+Common Prefix is a team of scientists and engineers specializing in blockchain protocols. They focus on developing secure cryptographic protocols through theoretical research and practical implementation. Their expertise spans consensus mechanisms, smart contract auditing, cryptographic protocol analysis, and blockchain infrastructure. They collaborate with clients ranging from Layer-1 blockchains to decentralized applications, offering services in protocol design, auditing, testing, and operational security. Their global team combines academic research with hands-on engineering to ensure secure and efficient blockchain systems.
+
+
+
+
+**Eiger** | https://www.eiger.co/
+
+Eiger specializes in designing, building, and deploying high-performance web3 systems that integrate seamlessly with blockchain environments. Their services include blockchain and smart contract implementations, large infrastructure deployments, architecture renovations, and ecosystem tooling. They focus on scalability, security, and reliability, working with clients to create optimized decentralized applications and blockchain solutions. Eiger supports Layer 1 and Layer 2 integrations, ensuring systems are cost-efficient and maintainable.
+
+
+
+**Ackee** | https://ackee.xyz/
+
+Ackee is trusted by top-tier organizations in web3. Our mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.
+
+
+**Node.Monster** | https://www.node.capital/#nodemonster
+
+Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster is the ideal partner to bootstrap your network's success.
 We also offer white-label services for VASPs and crypto VCs, allowing them to leverage our expertise under their brand. Our experience ensures that your brand can deliver top-tier services with the reliability and performance our team is known for as we are the main staking services for several protocols and VCs.
+
+
+## Compensation
+
+Any grants posted by Integrators to the [multi-sig wallet](#multisig-wallet) serves as an incentive for serious proposals and compensates Committee members for their evaluation efforts.
+
+Funds are distributed to members upon completion of evaluations, ensuring fair compensation for their work.
+
+### Multisig wallet
+
+- `axelar1...`
+    - Participants:
+        - `axelar1abc` <- Common Prefix
+        - `axelar1bcd` <- Eiger
+        - `axelar1def` <- Ackee
+        - `axelar1rmvv5p64l6p9lsne6syvt8yn0z8x0d9gqzvg6f` <- Node.Monster
+        - `axelar1fgh` <- Interop Labs
