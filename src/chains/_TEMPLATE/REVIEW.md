@@ -25,12 +25,20 @@
 
 ### Technological Assessment
 [ ]
-
+- [ ] Network and Protocol Integrity
+- [ ] Governance and Compliance
+- [ ] Smart Contracts Security
+- [ ] Vulnerability Scanning
+- [ ] 3rd Party Audits and history of exploits
+- [ ] Risk of use for developers/users
 ### Code Quality and Transparency of the Axelar Integration Components
 [ ]
 
 ### Understanding of Deployment and Maintenance Plans
 [ ]
+-[ ] Incident and Upgrade Procedures
+-[ ] Monitoring and Data Collection
+-[ ] External Threats (DDoS, phishing etc) 
 
 ### Consideration for Externalities
 
