@@ -22,6 +22,9 @@
 #### Technology Overview
 
 - **Protocol Overview:** [Provide an overview of the chain’s protocol and architecture]
+	- **Consensus Mechanism:** e.g. Proof of Stake (PoS)
+	- **Smart Contract Platform:** e.g. EVM-compatible
+	- **Cryptographic Techniques:** e.g. Zero-Knowledge Proofs
 - **Transaction Finality:** [Describe how and when transactions are considered final on the chain]
 - **Smart Contract Platform:** Fully EVM-compatible
 - **Additional Notable Features:** [List any other significant features of the chain]

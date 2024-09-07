@@ -1,10 +1,8 @@
-# Amplifier Advisory Committee Assessment on Example Proposal
+# Amplifier Advisory Committee Assessment on Flow EVM
 
 ## Project Overview
 
-**Chain Name:** 
-
-[ ]
+**Chain Name:** : Flow
 
 **Proposal reviewed:**
 
@@ -16,7 +14,7 @@
 - [ ]
 
 ### Other Participants: 
-- [ ]
+- [ ] 
 - [ ]
 - [ ]
 
