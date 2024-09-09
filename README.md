@@ -8,4 +8,4 @@ This effort reflects a growing recognition within the blockchain community of th
 
 ## [Proposal submission process](docs/Integrators/SUBMIT_PROPOSAL.md)
 
-## [About the Security Advisory Committee](docs/SECURITY_ADVISORY_COMMITTEE/SECURITY_ADVISORY_COMMITTEE.md)
+## [About the Amplifier Advisory Committee](docs/SECURITY_ADVISORY_COMMITTEE/AMPLIFIER_ADVISORY_COMMITTEE.md)
