@@ -7,6 +7,7 @@
 - **Deployment and Maintenance Plans:** The lifecycle of a connection, from its initial deployment to ongoing maintenance, is reviewed to ensure there is a comprehensive plan for addressing updates, bugs, and upgrades within the ecosystem.
 
   
+---
 
 ## Key Areas to Monitor for Security Standards
 
@@ -55,7 +56,7 @@ To maintain the security and integrity of the Axelar network, it is essential to
 
 ---
 
-### Process and Responsibilities for Monitoring Security Standards
+## Process and Responsibilities for Monitoring Security Standards
 
 Effective monitoring of security standards is crucial for maintaining the integrity of the Axelar network and ensuring that all integrated chains comply with the established security protocols. Below is a detailed process and the corresponding responsibilities for monitoring:
 
