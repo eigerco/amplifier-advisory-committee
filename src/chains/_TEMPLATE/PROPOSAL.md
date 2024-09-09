@@ -38,12 +38,11 @@
 - **External Gateway Contracts:** [Describe the implementation of external gateway contracts]
 - **Amplifier Contracts:** [Detail the role and functionality of amplifier contracts in the integration]
 
-## Request for Security Council Review
+## Request for the Amplifier Advisory Committee Review
 
 ### Purpose
 
 The purpose of this review is to ensure that the integration of [Insert Chain Name] with the Axelar network adheres to all security and technical standards, ensuring a secure and efficient connection.
-
 
 ### Additional Information
 
@@ -60,7 +59,7 @@ Community members are encouraged to participate in the discussion and provide fe
 
 ### Voting
 
-Following the Security Council's review, a community vote will be held to determine the approval of [Insert Chain Name]'s integration with the Axelar network.
+Following the Amplifier Advisory Committee's review, a community vote will be held to determine the approval of [Insert Chain Name]'s integration with the Axelar network.
 
 ### Feedback and Questions
 
