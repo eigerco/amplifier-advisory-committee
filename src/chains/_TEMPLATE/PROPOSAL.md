@@ -44,9 +44,6 @@
 
 The purpose of this review is to ensure that the integration of [Insert Chain Name] with the Axelar network adheres to all security and technical standards, ensuring a secure and efficient connection.
 
-### Proposed AXL Grant
-
-We propose an AXL grant of 20,000 AXL tokens to compensate the Security Council for their time and efforts in conducting a thorough review of the integration.
 
 ### Additional Information
 
