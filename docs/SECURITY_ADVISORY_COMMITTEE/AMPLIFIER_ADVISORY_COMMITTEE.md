@@ -6,7 +6,7 @@ The Amplifier Advisory Committee is tasked with ensuring the security and integr
 
 **Common Prefix** | https://www.commonprefix.com/
 
-Common Prefix is a team of scientists and engineers specializing in blockchain protocols. They focus on developing secure cryptographic protocols through theoretical research and practical implementation. Their expertise spans consensus mechanisms, smart contract auditing, cryptographic protocol analysis, and blockchain infrastructure. They collaborate with clients ranging from Layer-1 blockchains to decentralized applications, offering services in protocol design, auditing, testing, and operational security. Their global team combines academic research with hands-on engineering to ensure secure and efficient blockchain systems.
+Common Prefix is a team of scientists and engineers researching and implementing blockchain protocols. We work using rigorous cryptographic techniques to design simple, provably secure protocols from first principles and guide their implementation. Our consulting and auditing pertain to theoretical cryptographic protocol analyses as well as the pragmatic auditing of implementations in both core consensus technologies and application layer smart contracts.
 
 
 
