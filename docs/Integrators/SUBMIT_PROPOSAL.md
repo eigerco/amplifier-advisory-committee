@@ -10,8 +10,8 @@
     - Community members review and discuss the proposal. Proposers engage with the community to address questions and feedback. Chain Integrators should update the proposal to reflect community feedback and address concerns.
 
 3. **Amplifier Advisory Committee to initiate review.**
-    - AXL grants for the Committee are sent to a multi-sig [wallet](../SECURITY_ADVISORY_COMMITTEE/SECURITY_ADVISORY_COMMITTEE.md#multisig-wallet) secured and managed by the Committee.
-    - The **Report** will be posted in this GitHub repository in the same working directory as the chain's proposal, with a link posted to the community forum.
+    - The Amplifier Advisorsy Committee will review the chain proposal and provide a comprehensive and publicly available report ("The Report").
+    - **The Report** will be posted in this GitHub repository in the same working directory as the chain's proposal, with a link posted to the community forum.
  
 4. **Governance Proposals.**
     - With the Amplifier Advisory Committee review underway, the Chain Integrator can put forward a governance proposal.
