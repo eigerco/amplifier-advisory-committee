@@ -41,15 +41,15 @@ Hedera supports Solidity-based smart contracts with its Hedera Smart Contract Se
 
   - **Security Model:** Hedera's security model is based on the Hashgraph consensus algorithm, which is designed to be resilient to DDoS attacks and other malicious activities. The network has been independently audited, and the Hedera Governing Council provides a transparent and decentralized approach to network governance. Hedera’s asynchronous Byzantine Fault Tolerance ensures that even in the presence of malicious nodes, the network can still achieve consensus securely. Additionally, Hedera employs continuous monitoring and has implemented a bug bounty program to proactively identify and mitigate potential security risks.
   - **Hedera Governing Council:** The Hedera Governing Council is a diverse group of global organizations that govern the Hedera network, contributing to its stability and decentralization. The council includes prominent companies and institutions across various sectors, such as:
-  - Google
-  - IBM
-  - Boeing
-  - LG Electronics
-  - Deutsche Telekom
-  - Tata Communications
-  - University College London (UCL)
-  - Shinhan Bank
-  - Nomura
+    - **Google** 
+    - **IBM** 
+    - **Boeing** 
+    - **LG Electronics** 
+    - **Deutsche Telekom** 
+    - **Tata Communications** 
+    - **University College London (UCL)** 
+    - **Shinhan Bank** 
+    - **Nomura** 
   
 The council members are responsible for making key decisions about the network, including its roadmap, network rules, and policies, ensuring a decentralized and transparent governance model.
 
