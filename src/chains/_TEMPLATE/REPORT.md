@@ -31,6 +31,10 @@
 - [ ] Vulnerability Scanning
 - [ ] 3rd-party audits and history of exploits
 - [ ] Risk of use for developers/users
+
+### Threat Model
+[ ]
+
 ### Code Quality and Transparency of the Axelar Integration Components
 [ ]
 
