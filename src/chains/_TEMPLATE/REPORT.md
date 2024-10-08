@@ -40,11 +40,12 @@
 
 ### Understanding of Deployment and Maintenance Plans
 [ ]
--[ ] Incident and Upgrade Procedures
--[ ] Monitoring and Data Collection
--[ ] External Threats (DDoS, phishing etc) 
+- [ ] Incident and Upgrade Procedures
+- [ ] Monitoring and Data Collection
+- [ ] External Threats (DDoS, phishing etc) 
 
 ### Consideration for Externalities
+[ ]
 
 ## Recommendation
 [ ]
