@@ -6,7 +6,7 @@ The Amplifier Advisory Committee is tasked with ensuring the security and integr
 
 **Common Prefix** | https://www.commonprefix.com/
 
-Common Prefix is a team of scientists and engineers researching and implementing blockchain protocols. We work using rigorous cryptographic techniques to design simple, provably secure protocols from first principles and guide their implementation. Our consulting and auditing pertain to theoretical cryptographic protocol analyses as well as the pragmatic auditing of implementations in both core consensus technologies and application layer smart contracts.
+Common Prefix is a team of scientists and engineers researching and implementing blockchain protocols. They work using rigorous cryptographic techniques to design simple, provably secure protocols from first principles and guide their implementation. Their consulting and auditing pertain to theoretical cryptographic protocol analyses as well as the pragmatic auditing of implementations in both core consensus technologies and application layer smart contracts.
 
 
 
@@ -19,10 +19,9 @@ Eiger specializes in designing, building, and deploying high-performance web3 sy
 
 **Ackee** | https://ackee.xyz/
 
-Ackee is trusted by top-tier organizations in web3. Our mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.
+Ackee is trusted by top-tier organizations in web3. Their mission is to contribute to a stronger blockchain ecosystem by providing security services, tooling and education.
 
 
 **Node.Monster** | https://www.node.capital/#nodemonster
 
-Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster is the ideal partner to bootstrap your network's success.
-We also offer white-label services for VASPs and crypto VCs, allowing them to leverage our expertise under their brand. Our experience ensures that your brand can deliver top-tier services with the reliability and performance our team is known for as we are the main staking services for several protocols and VCs.
+Node.Monster specializes in high-performance, scalable Node solutions and plays a key role as operators, validators, and DAO contributors across over 20 networks, including Ether.fi , Axelar, and Stride. With deep expertise in running Nodes and guiding networks from testnet to mainnet, Node.Monster offers white-label services for VASPs and crypto VCs, and are the main staking services for several protocols and VCs.
