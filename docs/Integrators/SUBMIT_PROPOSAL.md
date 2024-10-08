@@ -3,7 +3,7 @@
 ## Process for Proposers
 
 1. **Chain integrators create a Proposal for a new chain.**
-    - A template for the proposal with the key criteria to be assessed can be found [here](../src/chains/_TEMPLATE/PROPOSAL.md). Fork the repository and create a pull request with your proposal.
+    - A template for the proposal with the key criteria to be assessed can be found [here](https://github.com/axelarnetwork/amplifier-advisory-committee/blob/feat/setup/src/chains/_TEMPLATE/PROPOSAL.md). Fork the repository and create a pull request with your proposal.
     - Proposals must include technical details, evaluation criteria, and relevant documentation.
 
 2. **Once the pull request is merged, start a discussion in the [community](https://community.axelar.network/) with a link to the proposal to facilitate community discussion.**
