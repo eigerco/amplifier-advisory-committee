@@ -1,7 +1,7 @@
 
 # Amplifier Advisory Committee - Governing Documents
 
-# Amplifier Advisory Committee - Constitution
+# Constitution
 
 ## Preamble
 This Constitution establishes the Amplifier Advisory Committee (the “Committee") whose aim is to assist the Axelar network community in connection with maintaining the integrity, security, and efficiency of integrations with the protocol connected to the Axelar network known as “Amplifier.”  This document serves as the foundational governance framework for the Committee's charter and operations.  Though it is not mandatory for an interested Amplifier integration to submit a Proposal to the Committee, it is highly recommended that such Proposal is submitted.
@@ -53,7 +53,7 @@ Feedback from the community on the activities of the Committee is actively sough
 The Committee may be dissolved by a Network Governance Vote. In such an event, any remaining assets received for purposes of compensation will be redirected as determined by a Network Governance Vote, with such vote focusing on enhancing network security or another community-directed initiative.
 
 
-# Amplifier Advisory Committee – Processes and Procedures
+# Processes and Procedures
 
 All capitalized but undefined terms used herein shall have those definitions as set forth in the Constitution.
 
@@ -63,13 +63,13 @@ All capitalized but undefined terms used herein shall have those definitions as 
 - Committee shall develop a Proposal template
 - An entity or individual submitting a Proposal on behalf of a protocol (the “Proposer”) shall follow the process for submission at the following link:
  
-https://github.com/axelarnetwork/amplifier-advisory-committee/blob/feat/setup/docs/Integrators/SUBMIT_PROPOSAL.md
+[SUBMIT PROPOSAL](https://github.com/axelarnetwork/amplifier-advisory-committee/blob/feat/setup/docs/Integrators/SUBMIT_PROPOSAL.md)
 
 **Reports**
 - Committee shall develop a Report on the basis of the Evaluation
 - Committee shall make such  Report available on:
    - Github, and
-   - The Axelar network community forum
+   - The Axelar network [community forum](https://community.axelar.network/c/governance2/33)
 
 ### Section 2: Evaluation Criteria
 	
