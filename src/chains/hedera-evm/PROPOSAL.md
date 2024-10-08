@@ -9,9 +9,11 @@
 
 - **Proposer:** Hedera Hashgraph
 - **Contact Information:**
-  - **Email:** ___@hedera.com
-  - **Telegram:** @hederahashgraph
+  - **Hedera Emails:** greg@swirldslabs.com, michael.garber@swirldslabs.com
+  - **Common Prefix Emails:** alexis@commonprefix.com  
+  - **Telegram:** [@hederahashgraph](https://t.me/hederahashgraph)
   - **Website:** https://hedera.com/
+  - **Discord:** https://hedera.com/discord
 
 ### Chain Overview
 
@@ -58,6 +60,8 @@ The council members are responsible for making key decisions about the network, 
 - **External Gateway Contracts:** With Hedera's EVM compatibility, the Axelar integration will leverage the standard gateway contracts available at Axelar's GitHub Repository. These contracts have been developed and thoroughly audited by the Interop Labs team to ensure secure and reliable cross-chain operations.
 
 - **Amplifier Contracts:** The integration will also utilize the Amplifier contracts (Gateway, Voting Verifier, Multisig Prover) on the Axelar Virtual Machine, as provided here. These components facilitate efficient communication between Hedera and other networks supported by Axelar.
+  
+- **ITS Contracts:** Standard ITS contracts are used, with small modifications to support the Hedera Token Service (HTS). New Interchain Tokens will be created as HTS tokens. ITS will support registration of Hedera canonical tokens, both HTS and ERC20 tokens.
 
 ## Request for Security Council Review
 
@@ -71,12 +75,16 @@ The goal of this review is to validate the security and technical compliance of 
 - **Developer Documentation:** https://docs.hedera.com/hedera
 - **Whitepaper:** https://hedera.com/papers
 - **Independent Audit Reports:** https://hedera.com/audits-and-standards
+- **Status Page:** https://status.hedera.com/
+- **Hedera Hashgraph Course:** https://hashgraphdev.com/?code=docs.hedera.com
+- The Common Prefix (CP) team contributed to the development of the Hedera <> Axelar connection. Please reach out to Alex Brezas on the CP team for any specific questions. 
+
 
 ## Community Involvement
 
 ### Discussion Forum
 
-Community members are encouraged to participate in the discussion and provide feedback on this proposal through the Axelar community forum. [Insert Link to Forum]
+Community members are encouraged to participate in the discussion and provide feedback on this proposal through the Axelar community forum. 
 
 ### Voting
 
