@@ -11,7 +11,7 @@ The chain integration process involves submitting a detailed proposal by forking
 
 To learn more about the community proposals, visit [Axelar Community Proposals](https://community.axelar.network/c/governance2/33).
 
-## [About the Amplifier Advisory Committee](docs/SECURITY_ADVISORY_COMMITTEE/AMPLIFIER_ADVISORY_COMMITTEE.md)
+## [About the Amplifier Advisory Committee](docs/AMPLIFIER_ADVISORY_COMMITTEE/AMPLIFIER_ADVISORY_COMMITTEE.md) 
 The Amplifier Advisory Committee is responsible for ensuring the security and integrity of new connections and integrations within the Axelar network. The committee plays a key role in evaluating proposals, offering technical expertise, and maintaining high standards of security. Their ongoing responsibilities include reviewing proposals for new integrations, publishing public reports, and monitoring the performance and security of integrated chains to ensure a secure and robust ecosystem for the Axelar community.
 
 To learn more about Amplifier, visit the [Amplifier Documentation](https://docs.axelar.dev/dev/amplifier/introduction/).
