@@ -16,19 +16,19 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **2. Amplifier Contracts**
+## **1. Amplifier Contracts**
 
 - **Assumption**: Contract admins are currently controlled via a multi-signature mechanism, with Axelar governance overseeing contract uploads. Admins can invoke emergency mechanisms (e.g., freezing connections) as needed.
 - **Threat**: If the multi-signature account or governance is compromised, emergency functions may be abused.
 - **Mitigation**: Axelar governance retains ultimate control, and any misuse of powers can be overridden by governance votes.
 
-### **2.1 Verifier/Prover Contracts**
+### **1.1 Verifier/Prover Contracts**
 
 - **Threat**: Vulnerabilities in proof verification could lead to incorrect validation of cross-chain messages.
 - **Attack Surface**: Malicious actors could manipulate cryptographic proofs to bypass verification checks.
 - **Mitigation**: Use well-established cryptographic libraries, conduct regular audits, and apply formal verification of cryptographic logic.
 
-### **2.2 Gateway Contracts**
+### **1.2 Gateway Contracts**
 
 - **Threat**: Unauthorized message routing or transaction tampering at the gateway level.
 - **Attack Surface**: Gateways managing cross-chain messages could be targeted for unauthorized access or logical vulnerabilities.
@@ -36,15 +36,15 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **3. External Chain Contracts**
+## **2. External Chain Contracts**
 
-### **3.1 External Chain Gateway Contracts**
+### **2.1 External Chain Gateway Contracts**
 
 - **Threat**: Gateway contracts on connected chains may contain vulnerabilities that allow malicious transactions or disrupt message integrity.
 - **Attack Surface**: External chains with weaker security assumptions could expose the protocol to cross-chain risks.
 - **Mitigation**: External chains must meet predefined security criteria before integration. Verifiable cryptographic proofs are required for all messages passed between chains.
 
-### **3.2 App Contracts (e.g., Interchain Token Standard - ITS)**
+### **2.2 App Contracts (e.g., Interchain Token Standard - ITS)**
 
 - **Threat**: Vulnerabilities in app contracts may lead to manipulation of token balances or cross-chain transactions.
 - **Attack Surface**: Application-level contracts, such as ITS, could allow malicious withdrawals exceeding deposited amounts.
@@ -52,7 +52,7 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **4. Axelar Network**
+## **3. Axelar Network**
 
 - **Assumption**: Axelar governance is trusted. If governance is compromised, both the Amplifier protocol and the entire Axelar network could be affected.
 - **Threat**: A governance attack may lead to malicious upgrades or changes to the protocol.
@@ -61,7 +61,7 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **5. Verifiers**
+## **4. Verifiers**
 
 - **Assumption**: A majority of verifiers are honest. The threshold for this is defined by the voter/prover contract parameters.
 - **Threat**: If the majority of verifiers are compromised, malicious transactions may be approved.
@@ -70,7 +70,7 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **6. Cryptographic Primitives**
+## **5. Cryptographic Primitives**
 
 - **Threat**: Cryptographic failures may allow message forgery or unauthorized transactions.
 - **Attack Surface**: Weak cryptographic primitives or flawed implementations could be exploited.
@@ -78,7 +78,7 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-## **7. Relayers**
+## **6. Relayers**
 
 - **Assumption**: Relayers only need to guarantee liveness, not security. At least one honest relayer must be available to relay messages, and users can self-relay if necessary.
 - **Threat**: Relayers could delay or censor messages, affecting liveness but not the security of the protocol.
@@ -88,3 +88,10 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 ---
 
 ## **Risk Assessment and Summary**
+
+| Threat                       | Likelihood | Impact  | Risk Rating |
+|-------------------------------|------------|---------|-------------|
+| Governance Compromise          | Low        | Critical| High        |
+| Verifier Majority Attack       | Low        | High    | High        |
+| Relayer Censorship             | Medium     | Medium  | Medium      |
+| Replay Attacks                 | Low        | Medium  | Low         |
