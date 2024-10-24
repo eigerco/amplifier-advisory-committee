@@ -6,30 +6,25 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ---
 
-### **Amplifier Components**
-
-1. **Verifier/Prover Contracts**: These contracts validate cross-chain messages by verifying cryptographic proofs. Verifiers vote to approve messages based on cryptographic integrity, ensuring that malicious transactions are not processed. A majority of honest verifiers is required for secure operation.
-2. **Gateway Contracts**: These contracts manage message flow between chains, acting as entry and exit points. They interact with verifiers and relayers to ensure secure routing of cross-chain messages.
-3. **Relayers**: Responsible for transmitting messages between chains, relayers are permissionless, meaning security relies on the availability of at least one honest relayer. Users can also self-relay if needed.
-4. **Axelar Network**: The Axelar network underpins the Amplifier Protocol, providing the infrastructure for decentralized cross-chain communication. Validators ensure that messages are validated and routed securely
-5. **External Chain Contracts**: Gateway contracts are deployed on external chains to facilitate cross-chain transactions. The security of these contracts depends on the security standards of the external chain.
-
----
-
 ## **1. Amplifier Contracts**
 
 - **Assumption**: Contract admins are currently controlled via a multi-signature mechanism, with Axelar governance overseeing contract uploads. Admins can invoke emergency mechanisms (e.g., freezing connections) as needed.
 - **Threat**: If the multi-signature account or governance is compromised, emergency functions may be abused.
 - **Mitigation**: Axelar governance retains ultimate control, and any misuse of powers can be overridden by governance votes.
 
-### **1.1 Verifier/Prover Contracts**
+### **1.1 Verifier Contracts**
+- **Assumption**: 
+- **Attack Surface**: 
+- **Mitigation**: 
 
+### **1.2 Prover Contracts**
+- **Assumption**: The prover generates a proof, and the external gateway verifies it 
 - **Threat**: Vulnerabilities in proof verification could lead to incorrect validation of cross-chain messages.
 - **Attack Surface**: Malicious actors could manipulate cryptographic proofs to bypass verification checks.
 - **Mitigation**: Use well-established cryptographic libraries, conduct regular audits, and apply formal verification of cryptographic logic.
 
-### **1.2 Gateway Contracts**
-
+### **1.3 Gateway Contracts**
+- **Assumption**: Gateway contracts are deployed on external chains to facilitate cross-chain transactions, acting as entry and exit points. They interact with the verifier contract and relayers to route cross-chain messages.
 - **Threat**: Unauthorized message routing or transaction tampering at the gateway level.
 - **Attack Surface**: Gateways managing cross-chain messages could be targeted for unauthorized access or logical vulnerabilities.
 - **Mitigation**: Implement strict input validation, replay protection mechanisms, and audit non-reentrant logic. Emergency mechanisms, such as freezing connections, provide damage control.
@@ -40,7 +35,7 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 
 ### **2.1 External Chain Gateway Contracts**
 
-- **Threat**: Gateway contracts on connected chains may contain vulnerabilities that allow malicious transactions or disrupt message integrity.
+- **Threat**: Gateway contracts on connected chains may contain vulnerabilities that allow malicious transactions, disrupt message integrity, or allow replay attacks.
 - **Attack Surface**: External chains with weaker security assumptions could expose the protocol to cross-chain risks.
 - **Mitigation**: External chains must meet predefined security criteria before integration. Verifiable cryptographic proofs are required for all messages passed between chains.
 
@@ -79,19 +74,21 @@ The Amplifier protocol enables seamless interoperability between blockchains wit
 ---
 
 ## **6. Relayers**
-
-- **Assumption**: Relayers only need to guarantee liveness, not security. At least one honest relayer must be available to relay messages, and users can self-relay if necessary.
-- **Threat**: Relayers could delay or censor messages, affecting liveness but not the security of the protocol.
-- **Attack Surface**: Delayed or manipulated messages could disrupt cross-chain operations.
+- **Assumption**: Relayers only need to guarantee liveness, not security. Liveness relies on the availability of at least one honest relayer.
+- **Threat**: Relayers could delay messages, affecting liveness but not the security of the protocol.
+- **Attack Surface**: Delayed messages could disrupt cross-chain operations.
 - **Mitigation**: Relayers are permissionless, ensuring that any party, including users, can relay messages. The availability of at least one honest relayer ensures the system’s liveness.
 
 ---
 
 ## **Risk Assessment and Summary**
 
-| Threat                       | Likelihood | Impact  | Risk Rating |
-|-------------------------------|------------|---------|-------------|
-| Governance Compromise          | Low        | Critical| High        |
-| Verifier Majority Attack       | Low        | High    | High        |
-| Relayer Censorship             | Medium     | Medium  | Medium      |
-| Replay Attacks                 | Low        | Medium  | Low         |
+| Threat                       | Likelihood | Impact  |
+|-------------------------------|------------|---------|
+| Governance Compromise          | Low        | Critical|
+| Verifier Majority Attack       | Low        | High    |
+| Relayer Censorship             | Medium     | Medium  |
+| Replay Attacks                 | Low        | Medium  |
+| Insert Logical Contract Bug 1  | Low        | Medium  |
+| Insert Logical Contract Bug 2  | Low        | Medium  |
+---
