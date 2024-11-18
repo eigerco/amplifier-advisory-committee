@@ -57,7 +57,7 @@ Flow is a Layer-1 Proof-of-Stake (PoS) network developed by [Dapper Labs](url) t
 
 Flow uses a variant of the [Jolteon Byzantine Fault Tolerant (BFT)](https://flow.com/engineering-blogs/jolteon-advancing-flows-consensus-algorithm) consensus algorithm, a flavor of [Hotstuff](https://arxiv.org/pdf/1803.05069).
 
-Each node has strict staking requirements and operates within Flow’s permission system, maintaining high standards for security and integrity. FLOW’s upgrade to [Cadence 1.0](https://flow.com/upgrade/crescendo/cadence-1) through the Crescendo initiative introduced EVM equivalency, allowing developers to leverage Ethereum tooling on Flow.
+Each node has strict staking requirements and operates within Flow’s permission system, maintaining high standards for security and integrity. Flow’s upgrade to [Cadence 1.0](https://flow.com/upgrade/crescendo/cadence-1) through the Crescendo initiative introduced EVM equivalency, allowing developers to leverage Ethereum tooling on Flow.
 
 The EVM equivalence components are described in their respective FLIPS: [FLIP223 EVM Core](https://github.com/onflow/flips/blob/main/protocol/20231116-evm-support.md), [FLIP237 Flow VM Bridge](https://github.com/onflow/flips/blob/main/application/20231222-evm-vm-bridge.md), and FLIP235 EVM Gateway (unmerged). Their source code & tests are open source: [EVM Core](https://github.com/onflow/flow-go/tree/master/fvm/evm), [Flow VM Bridge](https://github.com/onflow/flow-evm-bridge), and [EVM Gateway](https://github.com/onflow/flow-evm-bridge). The Flow VM Bridge has been audited by Quantstamp. The rest of the EVM components have not been audited.
 
