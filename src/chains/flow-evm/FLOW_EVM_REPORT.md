@@ -53,7 +53,7 @@ Desirable properties for a protocol’s architecture include:
 
 ### 2.1 Network Architecture
 
-Flow is a Layer-1 Proof-of-Stake (PoS) network developed by Dapper Labs to facilitate a wide range of applications, including gaming, NFTs, and digital assets. Its multi-role architecture splits traditional validator roles into four types: Collection, Consensus, Execution, and Verification nodes, enhancing scalability and security. 
+Flow is a Layer-1 Proof-of-Stake (PoS) network developed by [Dapper Labs](url) to facilitate a wide range of applications, including gaming, NFTs, and digital assets. Its multi-role architecture splits traditional validator roles into four types: Collection, Consensus, Execution, and Verification nodes, enhancing scalability and security. 
 
 Flow uses a variant of the [Jolteon Byzantine Fault Tolerant (BFT)](https://flow.com/engineering-blogs/jolteon-advancing-flows-consensus-algorithm) consensus algorithm, a flavor of [Hotstuff](https://arxiv.org/pdf/1803.05069).
 
