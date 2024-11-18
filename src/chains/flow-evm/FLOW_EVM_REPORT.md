@@ -32,7 +32,7 @@ The Committee’s assessment methodology consisted of these elements:
 - **Protocol Integrity**:  Focused on Flow’s consensus mechanism (Jolteon, a variant of HotStuff), validator decentralization, and the structural integrity of the multi-role architecture.  
 - **Security Risks**: Evaluation of potential exploits in Flow’s infrastructure, security audits for the EVM bridge, and the handling of smart contract vulnerabilities.  
 - **Operational Risks**: Potential risks for developers using Flow’s EVM integration, including challenges related to stability, smart contract language constraints, network halts, and untested components of Flow's upgrades like the Crescendo initiative.  
-- **Compliance & Governance Risks**: Determine if the protocol team, members, or other stakeholders are under investigation or facing legal action. And a review of Flow's governance framework (FLIPs) and its ability to address regulatory compliance issues.  
+- **Compliance & Governance Risks**: Determine if the protocol team, members, or other stakeholders are under investigation or facing legal action. Additionally, conduct a review of Flow's governance framework (FLIPs) and its ability to address regulatory compliance issues.  
 - **Code Quality and Transparency**: A detailed examination of the codebase for quality, including audit reports, documentation, and adherence to best practices. Transparency in the development process and open-source contribution practices were also considered.  
 - **Integration Plan**: A thorough review of Flow’s deployment and maintenance strategies for the Amplifier integration. This includes evaluating ongoing monitoring systems, incident response plans, data collection protocols, and external threat detection mechanisms.
 
