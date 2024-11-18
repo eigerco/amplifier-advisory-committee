@@ -187,7 +187,7 @@ Node.Monster, as a key member of the committee and an active verifier for the Am
 ## Conclusion
 
 In conclusion, the Committee finds that the Flow EVM integration with Axelar’s Amplifier demonstrates a promising step toward enhancing cross-chain interoperability. The integration provides Flow developers with access to broader liquidity pools and decentralized applications on other networks, leveraging Axelar's General Message Passing (GMP) for seamless cross-chain transactions.
-However, the Committee highlights areas requiring further attention, including:
+The Committee highlights areas that require further attention, including:
 
 - **Security audits** for untested EVM components.  
 - **Execution node centralization risks**.  
