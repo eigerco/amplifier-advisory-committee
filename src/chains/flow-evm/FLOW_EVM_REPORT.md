@@ -177,7 +177,7 @@ Given Axelar’s role in the direct development and integration of protocols lik
 
 To supplement Axelar’s internal monitoring efforts, verifiers such as Node.Monster actively observe network performance, focusing on the Amplifier ecosystem’s broader stability. These verifiers play a crucial role by contributing an additional layer of vigilance, analyzing metrics related to node health, message validation, and chain connectivity. Their independent monitoring provides decentralized oversight and helps identify performance or security issues that might otherwise be missed.
 
-In this capacity, Node.Monster and the other verifiers act as independent watchdogs, complementing Axelar’s monitoring protocols by offering a decentralized check on system integrity and reliability. Axelar maintains accountability for the ongoing security, performance, and functionality of the Flow integration. 
+In this capacity, [Node.Monster](https://node.monster/) and the other verifiers act as independent watchdogs, complementing Axelar’s monitoring protocols by offering a decentralised check on system integrity and reliability. Axelar maintains accountability for the ongoing security, performance, and functionality of the Flow integration. 
 
 [Node.Monster](https://node.monster/), as a key member of the committee and an active verifier for the Amplifier integration, plays a critical role in supporting the ongoing monitoring of the Flow EVM integration.
 
