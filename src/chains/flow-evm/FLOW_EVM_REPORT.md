@@ -25,7 +25,7 @@ The Committee’s assessment methodology consisted of these elements:
 
 - **Research and Documentation Review**: The committee reviewed technical documentation, reports, whitepapers, GitHub repositories, and Flow Improvement Proposals (FLIPs) related to the EVM integration and other related topics.  
 - **Security Audits and Testing**: The codebases and audits were reviewed for vulnerabilities, and key components were tested for compliance with best practices and security standards.
-- **Collaboration with the Flow Team**: The committee worked closely with the Flow team to understand the Amplifier deployment and maintenance plans. This included reviewing their incident response protocols, upgrade procedures, and amplifier integration. components.
+- **Collaboration with the Flow Team**: The committee worked closely with the Flow team to understand the Amplifier deployment and maintenance plans. This included reviewing their incident response protocols, upgrade procedures, and amplifier integration components.
 
 ### 1.3 Assessment Framework
 
