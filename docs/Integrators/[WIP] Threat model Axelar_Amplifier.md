@@ -8,37 +8,35 @@
 
 ## Prepared for: Axelar
 
-## Prepared By: thomas@gofyeo.com
+## Prepared By: FYEO
 
-## Internal and confidential
+[**Management summary**](#management-summary)
 
-[**Management summary	2**](#management-summary)
+[**Background**](#background)
 
-[**Background	3**](#background)
+[Methodology](#methodology)
 
-[Methodology	4](#methodology)
+[**Threat model results**](#threat-model-results)
 
-[**Threat model results	6**](#threat-model-results)
+[System description and overview](#system-description-and-overview)
 
-[System description and overview	6](#system-description-and-overview)
+[Protected assets by the system](#protected-assets-by-the-system)
 
-[Protected assets by the system	7](#protected-assets-by-the-system)
+[Protected Asset Categories](#protected-asset-categories)
 
-[Protected Asset Categories	7](#protected-asset-categories)
+[System Security Model](#system-security-model)
 
-[System Security Model	8](#system-security-model)
+[Threat actor analysis](#threat-actor-analysis)
 
-[Threat actor analysis	9](#threat-actor-analysis)
+[Identified threats](#identified-threats)
 
-[Identified threats	11](#identified-threats)
+[Conclusion and Results](#conclusion-and-results)
 
-[Conclusion and Results	14](#conclusion-and-results)
-
-[Conclusion	14](#conclusion)
+[Conclusion](#conclusion)
 
 # 
 
-# Management summary {#management-summary}
+# Management summary 
 
 The threat model analysis validates the platform's robust security model, emphasizing secure authentication, data protection, and modern cryptographic practices. Focused on identifying key threats, the analysis pinpointed smart contract vulnerabilities as the main concern, necessitating rigorous security and auditing measures.
 
@@ -54,7 +52,7 @@ Mitigation strategies will require robust implementation, and an emphasis on sma
 
 # 
 
-# Background {#background}
+# Background 
 
 This report outlines the findings from a threat model workshop conducted to assess the security posture of a specified system. 
 
@@ -64,7 +62,7 @@ This initiative responds to the necessity for rigorous security assessments in t
 
 ## 
 
-## Methodology {#methodology}
+## Methodology 
 
 The methodology adopted for the threat model workshop is inspired by established threat modeling practices, customized to address the unique aspects and security requirements of the system under review. The process was structured into several key phases, conducted over multiple workshops with stakeholder engagement, as follows:
 
@@ -80,11 +78,11 @@ The methodology adopted for the threat model workshop is inspired by established
 
 The methodology emphasized an interactive and iterative process, incorporating scenario analysis, stakeholder discussions, and technical evaluations to achieve a holistic understanding of the system's security challenges. By adapting this structured approach, the threat model workshop aimed to provide actionable insights and recommendations to strengthen the system's defenses against identified and potential security threats.
 
-# Threat model results  {#threat-model-results}
+# Threat model results  
 
 In this chapter we go through the results of the threat model workshops.
 
-## System description and overview {#system-description-and-overview}
+## System description and overview 
 
 The Axelar Amplifier provides a modular, secure infrastructure for interoperable cross-chain transactions and messaging, with GMP for simplified application integration, external verifiers for message validation, and governance through Axelar’s Cosmos SDK.
 
@@ -100,11 +98,11 @@ The Axelar Amplifier provides a modular, secure infrastructure for interoperable
   * **External Validators:** Participate in consensus and verify cross-chain transactions by monitoring multiple external chains  
   * **Cosmos SDK Governance**: Validator voting for decentralized protocol updates.
 
-## Protected assets by the system {#protected-assets-by-the-system}
+## Protected assets by the system 
 
 The system employs a multifaceted approach to asset protection, central to its security architecture. The system's asset protection strategy is designed to mitigate threats and vulnerabilities, ensuring the integrity and confidentiality of user assets and data. The following delineates the categories of assets protected within the system and outlines the protective mechanisms in place:
 
-### Protected Asset Categories {#protected-asset-categories}
+### Protected Asset Categories 
 
 **User Funds**:
 
@@ -121,7 +119,7 @@ The system employs a multifaceted approach to asset protection, central to its s
 
 ## 
 
-## System Security Model {#system-security-model}
+## System Security Model 
 
 The security model for Axelar Amplifier emphasizes decentralized verification, governance, and a layered approach to validating cross-chain operations:
 
@@ -133,7 +131,7 @@ The security model for Axelar Amplifier emphasizes decentralized verification, g
  
 
 
-## Threat actor analysis {#threat-actor-analysis}
+## Threat actor analysis 
 
 The threat actor analysis conducted as part of our threat modeling exercise has illuminated a diverse array of potential adversaries, each with distinct motivations and capabilities that could pose risks to the system. 
 
@@ -152,7 +150,7 @@ During the workshop the following classes of threat actors were identified:
 
 The highest-risk threat actor in the Axelar Amplifier system would appear to be **Compromised Validators and External Verifiers**, particularly due to their ability to collude and alter cross-chain message verification and governance. A quorum of compromised validators could authorize false transactions, exploit governance settings, or disable essential components, potentially impacting message integrity, user funds, and cross-chain interoperability. Since verifiers control multi-signature wallets, they could also compromise asset custody, posing significant risks to wrapped and locked tokens if acting maliciously.
 
-## Identified threats {#identified-threats}
+## Identified threats 
 
 The platform faces a spectrum of security threats that range from critical to high, medium and low priorities, each posing distinct challenges to the integrity, functionality, and trustworthiness of the system.
 
@@ -187,9 +185,9 @@ The platform faces a spectrum of security threats that range from critical to hi
 
 ## 
 
-## Conclusion and Results {#conclusion-and-results}
+## Conclusion and Results 
 
-### Conclusion {#conclusion}
+### Conclusion 
 
 The threat model analysis underscores the importance of a proactive and comprehensive approach to security within the DeFi ecosystem. By addressing the identified threats and vulnerabilities through the recommended actions, the platform can significantly enhance its security posture, safeguarding user assets and maintaining trust in its operations. The commitment to ongoing security assessment and adaptation is essential for navigating the challenges and opportunities presented by the rapidly evolving landscape of decentralized finance.
 
