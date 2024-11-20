@@ -3,21 +3,21 @@
 ## Project Overview
 
 - **Chain Name**: Flow  
-- **Proposal Reviewed**: [Flow Github Proposal](https://github.com/axelarnetwork/amplifier-advisory-committee/blob/feat/setup/src/chains/flow-evm/PROPOSAL.md)
+- **Proposal Reviewed**: [Flow Github Proposal](PROPOSAL.md)
 
 ### Table of Contents
-  #### [Section 1: Assessment Methodology](https://github.com/axelarnetwork/amplifier-advisory-committee/blob/feat--add-flow-evm-report/src/chains/flow-evm/FLOW_EVM_REPORT.md#section-1-assessment-methodology-1)
-  #### [Section 2: Network and Protocol Integrity](https://github.com/axelarnetwork/amplifier-advisory-committee/edit/feat--add-flow-evm-report/src/chains/flow-evm/FLOW_EVM_REPORT.md#section-2-network-and-protocol-integrity-1)
-  #### [Section 3: Security and Risks](https://github.com/axelarnetwork/amplifier-advisory-committee/edit/feat--add-flow-evm-report/src/chains/flow-evm/FLOW_EVM_REPORT.md#section-3-security-and-risks-1)
-  #### [Section 4: Axelar Integration Components](https://github.com/axelarnetwork/amplifier-advisory-committee/edit/feat--add-flow-evm-report/src/chains/flow-evm/FLOW_EVM_REPORT.md#section-4-axelar-integration-components-1)
-  #### [Conclusion](https://github.com/axelarnetwork/amplifier-advisory-committee/edit/feat--add-flow-evm-report/src/chains/flow-evm/FLOW_EVM_REPORT.md#conclusion-1)
+  #### [Section 1: Assessment Methodology](#section-1-assessment-methodology-1)
+  #### [Section 2: Network and Protocol Integrity](#section-2-network-and-protocol-integrity-1)
+  #### [Section 3: Security and Risks](#section-3-security-and-risks-1)
+  #### [Section 4: Axelar Integration Components](#section-4-axelar-integration-components-1)
+  #### [Conclusion](#conclusion-1)
 ---
 
 ## Section 1: Assessment Methodology
 
 ### 1.1 Integration Overview
 
-Flow’s EVM integration to Axelar Amplifier aims to facilitate seamless cross-chain transactions and interoperability, leveraging Axelar's General Message Passing (GMP) and security infrastructure. This integration provides Flow developers access to broader liquidity pools and decentralized applications (dApps) on other networks.
+Flow’s EVM integration to Axelar Amplifier aims to facilitate seamless cross-chain interoperability, leveraging Axelar's General Message Passing (GMP) protocol. This integration provides Flow developers access to broader liquidity pools and decentralized applications (dApps) on other networks.
 
 ### 1.2 Evaluation Approach
 
