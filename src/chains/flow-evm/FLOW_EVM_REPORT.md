@@ -145,35 +145,35 @@ Summary of findings from Amplifier Gateway audits:
 
 ### 4.2 Deployment and Maintenance Plans
 
-The Amplifier threat model for Flow EVM is derived from the [Amplifier Threat Model](docs/Integrators/Threat_model_Axelar_Amplifier.md), and focuses on securing seamless interoperability while mitigating risks associated with cross-chain interactions. Since Axelar directly developed the Flow integration, it assumes responsibility for monitoring contract security for contracts developed by the Axelar team, transaction performance on the Axelar Network, and overall network integration health. Key threats include unauthorized message manipulation, cross-chain replay attacks, and potential vulnerabilities within the smart contract logic.
+The Amplifier threat model for Flow EVM is derived from the [Amplifier Threat Model](docs/Integrators/Threat_model_Axelar_Amplifier.md), and focuses on securing seamless interoperability while mitigating risks associated with cross-chain interactions. Since Interop Labs (the initial developer of the Axelar network) directly developed the Flow integration, it assumes responsibility for monitoring contract security for contracts developed by the Interop Labs team, transaction performance on the Axelar Network, and overall network integration health. Key threats include unauthorized message manipulation, cross-chain replay attacks, and potential vulnerabilities within the smart contract logic.
 
-To address these, Axelar employs high security standards, regular contract audits, and proactive monitoring for irregular transactions. Verifiers and Validators enhance security by independently monitoring network performance, providing decentralised checks to help detect and respond to anomalies quickly. This layered approach ensures a secure and resilient Flow EVM integration within Amplifier’s cross-chain ecosystem.
+To address these, Interop Labs employs high security standards, regular contract audits, and proactive monitoring for irregular transactions. Verifiers and Validators enhance security by independently monitoring network performance, providing decentralised checks to help detect and respond to anomalies quickly. This layered approach ensures a secure and resilient Flow EVM integration within Amplifier’s cross-chain ecosystem.
 
-Axelar oversees monitoring and incident response, focusing on:
+Interop Labs oversees monitoring and incident response, focusing on:
 
 - **Real-Time Transaction Monitoring**  
 - **Performance Analytics**  
 - **Security Alerts**  
 
 **Incident Response Protocol**
-In the event of a security incident or performance anomaly within the Amplifier integration, Axelar’s designated response team, in collaboration with committee members, will activate a predefined response framework. The incident response is structured to ensure rapid detection, containment, and mitigation of threats, with clear accountability at each stage:
+In the event of a security incident or performance anomaly within the Amplifier integration, Interop Labs’s designated response team, in collaboration with committee members, will activate a predefined response framework. The incident response is structured to ensure rapid detection, containment, and mitigation of threats, with clear accountability at each stage:
    
 1. **Initial Detection and Alerting:** Monitoring tools and alerting systems will notify relevant stakeholders of any unusual activity or potential security threats.
 
-2. **Assessment and Containment:** Axelar’s incident response team will assess the severity and scope of the threat, enacting containment measures to limit exposure or system degradation.
+2. **Assessment and Containment:** Interop Labs’s incident response team will assess the severity and scope of the threat, enacting containment measures to limit exposure or system degradation.
    
 3. **Resolution and Recovery:** The team will coordinate with verifiers and other stakeholders to remediate affected components, validate the resolution, and ensure system stability.
   
-4. **Post-Incident Review:** After an incident is resolved, Axelar will conduct a thorough review to identify root causes, implement preventative measures, and enhance monitoring protocols where needed.
+4. **Post-Incident Review:** After an incident is resolved, Interop Labs will conduct a thorough review to identify root causes, implement preventative measures, and enhance monitoring protocols where needed.
 
-The committee serves in an advisory capacity, providing guidance on response protocols and ensuring that the framework aligns with Axelar’s security standards. However, primary responsibility for direct incident handling lies with Axelar’s response team, which coordinates with committee representatives as needed.
+The committee serves in an advisory capacity, providing guidance on response protocols and ensuring that the framework aligns with Axelar’s security standards. However, primary responsibility for direct incident handling lies with Interop Labs’s response team, which coordinates with committee representatives as needed.
 
 **Monitoring and Alerting Responsibilities**
-Given Axelar’s role in the direct development and integration of protocols like Flow into Amplifier, Axelar is responsible for implementing and maintaining ongoing monitoring and alerting mechanisms specific to the integration’s contracts, transaction security, and overall performance. This involves:
+Given Interop Labs’s role in the direct development and integration of protocols like Flow into Amplifier, it is responsible for implementing and maintaining ongoing monitoring and alerting mechanisms specific to the integration’s contracts, transaction security, and overall performance. This involves:
 
-- **Real-Time Transaction Monitoring:** Axelar monitors cross-chain transactions to detect irregularities in contract execution, latency issues, or security anomalies that may arise.
+- **Real-Time Transaction Monitoring:** Interop Labs monitors cross-chain transactions to detect irregularities in contract execution, latency issues, or security anomalies that may arise.
 - **Performance Analytics:** Continuous performance tracking to ensure that the integration operates within expected parameters, providing early warning signals if resource consumption, transaction throughput, or latency exceeds threshold limits.
-- **Security Alerts:** Axelar’s monitoring infrastructure includes detection capabilities for potential security threats, including unauthorized access attempts, replay attacks, and contract manipulations.
+- **Security Alerts:** Interop Labs’s monitoring infrastructure includes detection capabilities for potential security threats, including unauthorized access attempts, replay attacks, and contract manipulations.
 
 To supplement Axelar’s internal monitoring efforts, verifiers such as [Node.Monster](https://node.monster/) actively observe network performance, focusing on the Amplifier ecosystem’s broader stability. These verifiers play a crucial role by contributing an additional layer of vigilance, analysing metrics related to node health, message validation, and chain connectivity. Their independent monitoring provides decentralised oversight and helps to identify performance or security issues that might otherwise be missed.
 
