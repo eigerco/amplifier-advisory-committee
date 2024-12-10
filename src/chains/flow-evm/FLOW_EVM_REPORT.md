@@ -131,7 +131,7 @@ Additional notable considerations worth bringing up to the Axelar community:
 
 ## Section 4: Axelar Integration Components
 
-The Flow integration deploys the EVM contracts as-is. No Flow-specific features are used, and EVM compatibility is tested through Axelar integration tests and reviewing Flow documentation. The Axelar Amplifier Gateway is open-source on [GitHub](https://github.com/axelarnetwork/axelar-amplifier) and security audits were performed by [Ackee Blockchain](https://github.com/axelarnetwork/audits/blob/main/audits/2024-07%20Ackee%20Blockchain.pdf) (7/2024), [Hallborn](https://github.com/axelarnetwork/audits/blob/main/audits/2024-05%20Halborn.pdf) (5/2024), and [NCC](https://github.com/axelarnetwork/audits/blob/main/audits/2024-06%20NCC.pdf) (6/2024).
+The Flow integration deploys the EVM [contracts](https://github.com/axelarnetwork/axelar-gmp-sdk-solidity/tree/main/contracts/gateway) as-is. No Flow-specific features are used, and EVM compatibility is tested through Axelar integration tests and reviewing Flow documentation. The Axelar Amplifier Gateway is open-source on [GitHub](https://github.com/axelarnetwork/axelar-amplifier) and security audits were performed by [Ackee Blockchain](https://github.com/axelarnetwork/audits/blob/main/audits/2024-07%20Ackee%20Blockchain.pdf) (7/2024), [Hallborn](https://github.com/axelarnetwork/audits/blob/main/audits/2024-05%20Halborn.pdf) (5/2024), and [NCC](https://github.com/axelarnetwork/audits/blob/main/audits/2024-06%20NCC.pdf) (6/2024).
 
 ### 4.1 Code Quality and Transparency
 
