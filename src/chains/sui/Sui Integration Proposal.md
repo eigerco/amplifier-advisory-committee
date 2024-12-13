@@ -63,9 +63,12 @@ The purpose of this review is to ensure that the integration of Sui with the Axe
 
 * GitHub Repository: [https://github.com/MystenLabs/sui](https://github.com/MystenLabs/sui)  
 * Developer Documentation: [https://docs.sui.io/](https://docs.sui.io/)  
-* Whitepaper: [https://docs.sui.io/paper/sui.pdf](https://docs.sui.io/paper/sui.pdf)  
+* Whitepaper: [https://docs.sui.io/paper/sui.pdf](https://docs.sui.io/paper/sui.pdf) 
 * Independent Audit Reports: [https://sui.io/security](https://sui.io/security)
+
+* [Sui Gateway Audit Report - June 2024](https://github.com/axelarnetwork/audits/blob/main/audits/2024-06%20Ottersec.pdf)
+* [Sui Gateway Audit Report - November 2024](https://github.com/axelarnetwork/audits/blob/ottersec-audits-20241213/audits/2024-11%20Ottersec%20-%20Sui.pdf)
 
 ### Feedback and Questions
 
-For any questions or feedback regarding this proposal, please contact the Mysten Labs team [inga@mystenlabs.com](mailto:inga@mystenlabs.com)  or via Discord [https://discord.com/invite/sui](https://discord.com/invite/sui).
+For any questions or feedback regarding this proposal, please contact the Mysten Labs team [inga@mystenlabs.com](mailto:inga@mystenlabs.com) or via Discord [https://discord.com/invite/sui](https://discord.com/invite/sui).
