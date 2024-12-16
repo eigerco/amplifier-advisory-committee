@@ -1,14 +1,14 @@
 
 
-# 
+# Axelar Threat model report 
 
-# Axelar
+**Initially prepared by [FYEO](https://www.fyeo.io/) for the Axelar Foundation with contributions from the Amplifier Advisory Committee and Axelar engineering team.**
 
-# Threat model report 
+*This document may be updated from time to time as certain features of the Amplifier product are still under active development.*
 
-## Prepared for: Axelar
+#
 
-## Prepared By: FYEO
+**Table of Contents**
 
 [**Management summary**](#management-summary)
 
@@ -181,7 +181,7 @@ The platform faces a spectrum of security threats that range from critical to hi
 | Prover Contract Compromise | Manipulation of cryptographic proofs by malicious actors could bypass verification checks and allow false cross-chain messages. | External Attackers, Cryptographic Attackers | High | Low |
 | Gateway Contract Compromise | Unauthorized message routing or transaction tampering at the gateway level. | Malicious Actors, Compromised Verifiers | Critical | Medium |
 | Replay Attacks | Reuse of messages on external chains leading to unauthorized transactions or state inconsistencies. | General Hackers, Malicious Validators | Medium | Low |
-| Cryptographic Failure | Cryptographic weaknesses or flawed implementations could allow message forgery or unauthorized transactions. | General Hackers, Cryptographic Attackers | Hi |  |
+| Cryptographic Failure | Cryptographic weaknesses or flawed implementations could allow message forgery or unauthorized transactions. | General Hackers, Cryptographic Attackers | Hi | Low |
 
 ## 
 
