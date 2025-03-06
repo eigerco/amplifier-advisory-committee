@@ -47,6 +47,7 @@
 - **External Gateway Contracts:** There will be implemented custom gateway contracts for Solana, allowing seamless cross-chain messaging and asset bridging. These contracts will utilize Solana’s token program (SPL tokens) to facilitate asset interoperability, enabling users to transfer tokens securely between different chains.
 - **Amplifier Contracts:** The Axelar Virtual Machine (AVM) will be used to deploy amplifier contracts for efficient cross-chain execution. These contracts will handle routing and validation of interchain messages to and from Solana, ensuring secure communication between networks.
 - **ITS Contracts:** Interchain Token Standard (ITS) contracts will be adapted to support SPL token transfers, enabling cross-chain assets to be issued and redeemed on Solana with minimal friction.
+- **Governance Contract:** The governance module allows decisions taken on the Axelar network to be propagated and executed on the different integrated chains, giving a chance (by timelock) to each chain maintainer to prepare for it's execution. So the governance module acts as a "approved proposal's forwarder" which is connected to the Axelar governance infrastructure via GMP messages.
 
 ## Request for the Amplifier Advisory Committee Review
 
