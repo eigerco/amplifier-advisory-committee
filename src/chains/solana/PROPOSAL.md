@@ -37,16 +37,16 @@
 
 #### Security Considerations
 
-- **Security Model:** Solana has undergone multiple security audits from firms such as Halborn, Kudelski Security and Neodyme. The network is designed with Byzantine Fault Tolerance (BFT) to prevent attacks, and validators secure the network via a delegated Proof-of-Stake (dPoS) model. Solana employs a robust cryptographic structure and uses transaction signatures to prevent unauthorized access and tampering.
+- **Security Model:** Solana has undergone multiple security audits from firms such as Halborn, Kudelski Security and Neodyme. The network is designed with Byzantine Fault Tolerance (BFT) to prevent attacks, and a diverse set of approximately 1,000-1,200 active validators secure the network via a delegated Proof-of-Stake (dPoS) model. Solana employs a robust cryptographic structure and uses transaction signatures to prevent unauthorized access and tampering.
 - **Previous Incidents & Mitigation:** While Solana has experienced occasional network congestion due to high transaction loads, the development team actively implements protocol upgrades and optimizations to enhance network resilience. Security improvements are continuously made to mitigate risks related to spam attacks, DDoS vulnerabilities, and network stability.
 - **Bug Bounty Program & Security Monitoring:** Solana operates an active bug bounty program to encourage security researchers to identify and report vulnerabilities before they can be exploited. The network is monitored in real time using advanced threat detection systems to identify and mitigate potential attack vectors, ensuring a high level of security at all times.
 - **Smart Contract Safety & Developer Security Best Practices:** The Solana Foundation provides guidelines and best practices for developers to write secure smart contracts, including secure coding patterns, recommended use of auditing services, and built-in security features in the Anchor framework. Developers are encouraged to undergo rigorous testing and formal verification processes before deploying dApps to the mainnet.
 
 ### Axelar Integration Components
 
-- **External Gateway Contracts:** There will be implemented custom gateway contracts for Solana, allowing seamless cross-chain messaging and asset bridging. These contracts will utilize Solana’s token program (SPL tokens) to facilitate asset interoperability, enabling users to transfer tokens securely between different chains.
-- **Amplifier Contracts:** The Axelar Virtual Machine (AVM) will be used to deploy amplifier contracts for efficient cross-chain execution. These contracts will handle routing and validation of interchain messages to and from Solana, ensuring secure communication between networks.
-- **ITS Contracts:** Interchain Token Standard (ITS) contracts will be adapted to support SPL token transfers, enabling cross-chain assets to be issued and redeemed on Solana with minimal friction.
+- **External Gateway Contract:** the External Gateway Contract will be implemented within Solana's native environment and optimized for the network's performance characteristics, allowing seamless cross-chain messaging and asset bridging.
+- **Amplifier Contracts:** The Amplifier contracts will follow Axelar's established integration patterns with appropriate adaptations for Solana's programming model. These contracts will handle routing and validation of interchain messages to and from Solana, ensuring secure communication between networks.
+- **ITS Contracts:** Interchain Token Service (ITS) contracts will be adapted to support SPL token transfers, enabling cross-chain assets to be issued and redeemed on Solana with minimal friction.
 - **Governance Contract:** The governance module allows decisions taken on the Axelar network to be propagated and executed on the different integrated chains, giving a chance (by timelock) to each chain maintainer to prepare for its execution. So the governance module acts as an "approved proposal's forwarder" which is connected to the Axelar governance infrastructure via GMP messages.
 
 ## Request for the Amplifier Advisory Committee Review
