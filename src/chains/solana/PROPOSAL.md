@@ -41,6 +41,7 @@
 - **Previous Incidents & Mitigation:** While Solana has experienced occasional network congestion due to high transaction loads, the development team actively implements protocol upgrades and optimizations to enhance network resilience. Security improvements are continuously made to mitigate risks related to spam attacks, DDoS vulnerabilities, and network stability.
 - **Bug Bounty Program & Security Monitoring:** Solana operates an active bug bounty program to encourage security researchers to identify and report vulnerabilities before they can be exploited. The network is monitored in real time using advanced threat detection systems to identify and mitigate potential attack vectors, ensuring a high level of security at all times.
 - **Smart Contract Safety & Developer Security Best Practices:** The Solana Foundation provides guidelines and best practices for developers to write secure smart contracts, including secure coding patterns, recommended use of auditing services, and built-in security features in the Anchor framework. Developers are encouraged to undergo rigorous testing and formal verification processes before deploying dApps to the mainnet.
+- **Network Resilience:** Solana has demonstrated significant improvements in network uptime, achieving over 99% uptime rate over the past year. This reliability ensures continuous operation for dApps, financial applications, and DeFi protocols, making it a dependable infrastructure for developers and enterprises.
 
 ### Axelar Integration Components
 
